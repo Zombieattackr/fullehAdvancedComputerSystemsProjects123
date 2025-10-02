@@ -1,7 +1,7 @@
-Hello readme
 ECSE 6320 Fall 2025
 Hayden Fuller
 Projects 1-3
+P1
 
 I'm running this on my AORUS 15P KD with:
 Processor	11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz   2.30 GHz
@@ -22,11 +22,4 @@ L2: 10MB
 L3: 24MB
 DDR4: 32GB
 
-using VScode and g++
-
-
-
-disassemble with
-objdump -d build/simd_profiling_auto.exe > disassembly_auto.txt
-objdump -d build/simd_profiling_scalar.exe > disassembly_scalar.txt
-and look for vmulps, vmulpd, vaddps, vaddpd, vfmadd, etc
+using VScode, g++, and MATLAB
